@@ -1,0 +1,17 @@
+@import "tailwindcss";
+:root{
+--red: #EF4444;
+--green: #10B981;
+--blue: #3B82F6;
+--yellow: #F59E0B;
+--purple: #8B5CF6;
+}
+
+
+/* small helpers */
+.card { @apply bg-white rounded-2xl shadow p-4; }
+.small { @apply text-sm text-slate-500; }
+
+
+/* make plotly charts blend */
+.plotly-graph-div { background: transparent !important; }
